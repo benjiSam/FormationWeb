@@ -1,0 +1,27 @@
+*{
+margin: 0;
+}
+
+h1{
+    margin: 20px;
+}
+
+#conteneur div p{
+color: blue;
+}
+
+#conteneur p + h1 {
+    color: blueviolet;
+}
+
+p ~ h1{
+    color: chartreuse;
+}
+
+a[href="Youtube.com"]{
+    background-color: red;
+}
+
+a[title="Bon lien"]{
+    background-color: darkkhaki;
+}
