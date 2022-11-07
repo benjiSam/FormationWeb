@@ -6,19 +6,33 @@
 #contenair1 {
     width: 45%;
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 3%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
 }
 
 #contenair2 {
     width: 45%;
     display: inline-block;
     margin-left: 2%;
-
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
 }
 
 img {
     width: 300px;
     margin-left: 40%;
+    border-left: 2px dashed rgb(230, 131, 10);
+    border-right: 2px dashed rgb(238, 134, 7);
+    border-top: 2px dashed rgb(231, 130, 7);
+    border-bottom: 2px dashed rgb(232, 131, 7);
+    border-radius: 5px;
 }
 
 h3 {
@@ -26,11 +40,29 @@ h3 {
 }
 
 body {
-    background-color: rgb(211, 202, 191); 
+    background-color: rgb(224, 232, 232);     
 }
 
 p {
     text-align: justify;
+}
+
+#liste ul {
+      color: red;
+      background-color: chartreuse;
+}
+
+#liste ol {
+    color: gold;
+    background-color: cornflowerblue;
+}
+
+#contenair3 {
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    border-radius: 10px;
 }
 
 
